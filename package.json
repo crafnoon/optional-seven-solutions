@@ -1,0 +1,31 @@
+{
+  "name": "freelance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "grpc-start": "nodemon src/index-grpc.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.10.7",
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/google-protobuf": "^3.15.12",
+    "@types/lodash": "^4.17.1",
+    "@types/node": "^20.12.10",
+    "grpc-tools": "^1.12.4",
+    "grpc_tools_node_protoc_ts": "^5.3.3",
+    "ts-node": "^10.9.2",
+    "ts-proto": "^1.174.0",
+    "typescript": "^5.4.5"
+  }
+}
